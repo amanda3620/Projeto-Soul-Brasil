@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Cadastro</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<header>
+		<figure>
+			<img src="">
+		</figure>
+	</header>
+	<main>
+		<form>
+			<h1>Cadastre-se</h1>
+		<h2>Dados pessoais</h2>
+		<label>Nome completo</label><br>
+		<input type="text" name="campotexto" placeholder="Digite algo aqui..." required size="20px" class="Nome completo">
+		<br>
+
+		<label>Data de nascimento</label><br>
+		<input type="date" name="campodata" required class="Data">
+		<br>
+
+		<hr>
+
+		<h2>Dados para contato</h2>
+
+		<label>E-mail</label><br>
+		<input type="email" name="campoemail" placeholder="nome@nome" required  size="30px" class="E-mail">
+		<br>
+		
+		<label>Telefone</label><br>
+		<input type="text" name="telefone" placeholder="00000-0000" required maxlength="9" size="15px" class="Telefone">
+		<br>
+
+		<label>Endereço</label><br>
+		<input type="text" name="campoendereço" placeholder="Digite algo aqui..." required size="20px" class="Endereço">
+		<br>
+
+		<label>Cidade</label><br>
+		<input type="text" name="cidade" placeholder="Digite algo aqui..." required size="20px" class="Cidade">
+		<br>
+
+		<label>Estado</label>
+		<select name="estado" required>
+			<option selected value="SP">AC</option>
+			<option value="SP">AL</option>
+			<option value="SP">AP</option>
+			<option value="SP">AM</option>
+			<option value="SP">BA</option>
+			<option value="SP">CE</option>
+			<option value="SP">ES</option>
+			<option value="SP">GO</option>
+			<option value="SP">MA</option>
+			<option value="SP">MT</option>
+			<option value="SP">MS</option>
+			<option value="SP">MG</option>
+			<option value="SP">PA</option>
+			<option value="SP">PB</option>
+			<option value="SP">PR</option>
+			<option value="SP">PE</option>
+			<option value="SP">PI</option>
+			<option value="SP">RJ</option>
+			<option value="SP">RN</option>
+			<option value="SP">RS</option>
+			<option value="SP">RO</option>
+			<option value="SP">RR</option>
+			<option value="SP">SC</option>
+			<option value="SP">SP</option>
+			<option value="SP">TO</option>
+			<option value="SP">DF</option>
+		</select>
+
+		<hr>
+
+		<h2>Dados profissionais</h2>
+
+		<label>Formação</label><br>
+		<input type="text" name="Formação" Placeholder="Digite algo aqui..." required size="20px" class="Formação">
+		<br>
+		<label>Categoria</label>
+		<br>		
+		<input type="radio" name="Categoria" value="1">
+		<label class="Categoria">Dança</label>
+		<input type="radio" name="Categoria" value="2">
+		<label class="Categoria">Teatro</label>
+		<input type="radio" name="Categoria" value="3">
+		<label class="Categoria">Música</label>
+		<input type="radio" name="Categoria" value="4">
+		<label class="Categoria">Artes plásticas</label>
+		<input type="radio" name="Categoria" value="5">
+		<label class="Categoria">Escultura</label>
+		<input type="radio" name="Categoria" value="6">
+		<label class="Categoria">Literatura</label>
+		<br>
+		<br>
+
+
+		<label>Principais habilidades</label><br>
+		<textarea></textarea> 
+		<br>
+
+		<label>Área(s) de atuação</label><br>
+		<input type="text" name="área" placeholder="Digite algo aqui..." required size="20px" class="Área">
+		<br>
+
+		<br>
+		<input type="submit" value="ENVIAR">
+		<input type="submit" value="LIMPAR">
+
+
+	</form>
+
+	</body>
+</html>
